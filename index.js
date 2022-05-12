@@ -2,8 +2,10 @@ require("dotenv").config();
 const express = require("express");
 const formidable = require("express-formidable");
 const cors = require("cors");
+const morgan = require("morgan");
 const app = express();
 
+app.use(morgan("dev"));
 app.use(formidable());
 app.use(cors());
 
@@ -16,7 +18,7 @@ app.get("", (req, res) => {
 //App routes
 const comicsRoute = require("./routes/comics"); // Possible queries title limit and skip
 app.use(comicsRoute);
-const charactersRoute = require("./routes/characters"); // Possible queries title and skip - limit defined to 100
+const charactersRoute = require("./routes/characters"); // Possible queries name limit and skip
 app.use(charactersRoute);
 const comicsByCharacterRoute = require("./routes/comics-by-character");
 app.use(comicsByCharacterRoute);
