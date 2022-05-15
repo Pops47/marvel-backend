@@ -24,6 +24,8 @@ const comicsByCharacterRoute = require("./routes/comics-by-character");
 app.use(comicsByCharacterRoute);
 const characterByIdRoute = require("./routes/character-by-id");
 app.use(characterByIdRoute);
+const comicByIdRoute = require("./routes/comic-by-id");
+app.use(comicByIdRoute);
 
 //404
 app.all("*", (req, res) => {
