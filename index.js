@@ -12,7 +12,7 @@ app.use(cors());
 // Welcome route
 app.get("", (req, res) => {
   res.status(200).json({
-    message: "Welcome to Marvel-backend on Heroku server",
+    message: "Welcome to Marvel-backend on Render server",
   });
 });
 //App routes
