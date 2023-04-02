@@ -1,4 +1,4 @@
-# Marvel-project server 
+# Marvel-project : server 
 
-see READ ME on marvel-frontend
+see READ ME at "marvel-frontend" repo
 
