@@ -10,5 +10,5 @@ It provides 5 routes to get data from Marvel API by LeReacteur (a clone of the o
 - comics by ID
 - comics by character
 
-(see READ ME at "marvel-frontend" for further informations)
+(see [READ ME](https://github.com/Pops47/marvel-frontend/blob/main/README.md) of "marvel-frontend" for further informations)
 
