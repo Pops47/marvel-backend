@@ -2,7 +2,7 @@
 
 This server is made with Express/Node.js. 
 
-It provides 5 routes to get data from Marvel API by LeReacteur (a clone of Marvel API) : 
+It provides 5 routes to get data from Marvel API by LeReacteur (a clone of the official Marvel API) : 
 
 - characters
 - comics
